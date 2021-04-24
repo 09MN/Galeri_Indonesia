@@ -6,7 +6,7 @@
 /* import font */
 @font-face {
   font-family: belepotan;
-  src: url("../css/font/Belepotan-Italic.otf") format("truetype");
+  src: url(css/font/Belepotan-Italic.otf) format("truetype");
 }
 /* akhir import font */
 
@@ -14,7 +14,7 @@
 
 .bg-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../picture/mountain.jpg") format("truetype");
+    url(picture/backHero.jpg);
   background-position: center center;
   background-size: cover;
   height: 600px;
@@ -32,7 +32,7 @@
 }
 
 .hero-text p {
-  color: black;
+  color: rgb(44, 7, 7);
   font-size: 24px;
 }
 
